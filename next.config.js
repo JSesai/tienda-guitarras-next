@@ -10,7 +10,8 @@ const nextConfig = {
         port: '',
         pathname: '/api-Guitarras/image/**',
       },
-    ],
+    ]
+    
   }
 }
 

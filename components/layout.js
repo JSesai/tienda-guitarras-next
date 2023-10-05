@@ -3,6 +3,7 @@ import Head from "next/head" //componente head es la cabecera donde van los meta
 //importamos componentes
 import Header from "./header" //componente que es la cabeza de la pagina
 import Footer from "./footer" //componente que es el pir de la pagina
+
 export default function Layout({children, title, description}) {
   return (
     <>  
