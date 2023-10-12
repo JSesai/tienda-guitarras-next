@@ -15,6 +15,7 @@ export default function Blog({posts}) {
           <main className="contenedor">
             <h1 className="heading">Blog</h1>
             <div className={styles.grid}>
+              {/* mostramos posts iterando con map sobre el arreglo que se ha recibido via props, pasamos el key para no tener errores, con el id del post y pasamos todos los datos del elemento actual que se esta recorriendo, esto hara que se muestren tantos componentes como se reciban y seran unicos cada uno */}
               {posts?.map( post=>(
                 <Post 
                   key={post.id}

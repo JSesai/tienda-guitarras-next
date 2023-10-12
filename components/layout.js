@@ -4,6 +4,8 @@ import Head from "next/head" //componente head es la cabecera donde van los meta
 import Header from "./header" //componente que es la cabeza de la pagina
 import Footer from "./footer" //componente que es el pir de la pagina
 
+//Layout es la plantilla que se usa en next para reutilizar codigo y mostrala en todas las paginas que vayamos creando aunque tambien te se pueden agregar layouts solo para ciertas paginas lo que lo hace ideal para barras laterale
+//tiene un head que renderiza el title y description si asi lo deseas, ideal para el CEO; tiene header para la navegacion superior, en children renderiza lo que se retorne en las paginas que se usen este componente y fotter para el pie de pagina
 export default function Layout({children, title, description}) {
   return (
     <>  
